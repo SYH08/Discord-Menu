@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import functions
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -20,4 +21,5 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send('ㅂㅅ')
 
-bot.run("TKN")
+getPrivate = functions.getPrivate()
+bot.run(getPrivate.getToken())

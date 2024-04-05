@@ -3,4 +3,4 @@
 /.idea/*
 /.idea/inspectionProfiles
 /.venv/*
-/secret.json
+/private.json
