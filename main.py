@@ -27,4 +27,4 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send('ㅂㅅ')
 
-bot.run("MTIyNTgxNTUxMTQyMjczNDQ0OA.GrRiH2.J5wjGd2KAgzaFxBicSxY4dbMXAvVetgG2onph4")
+bot.run("tocken")
