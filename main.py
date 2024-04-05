@@ -27,4 +27,4 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send('ㅂㅅ')
 
-bot.run("to")
+bot.run("TKN")
