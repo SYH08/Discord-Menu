@@ -6,13 +6,6 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 client = discord.Client(intents=discord.Intents.default())
 
-@client.event
-async def on_ready():
-    print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
-    print('------')
-
 @bot.event
 async def on_ready():
     print('Logged in as')
