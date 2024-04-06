@@ -1,6 +1,8 @@
 import json
-
-class pharser:
+import function
+class pharse:
     def __init__(self):
-        print('init ran')
-    
+      print('init ran')
+    def sliceExlData(self):
+      print('slice ran')
+      
