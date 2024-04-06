@@ -6,6 +6,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 client = discord.Client(intents=discord.Intents.default())
+getData = functions.get()
 
 @bot.event
 async def on_ready():
@@ -17,9 +18,10 @@ async def on_ready():
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+    
 @bot.command()
 async def hello(ctx):
     await ctx.send('ㅂㅅ')
 
-getPrivate = functions.getPrivate()
-bot.run(getPrivate.getToken())
+
+bot.run(getData.Token())
