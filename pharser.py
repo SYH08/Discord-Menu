@@ -28,3 +28,4 @@ if weekday > 4:
     print("오늘은 주말입니다.") #is Weekend?
 else:
     print(data[sliceNum[weeknum]][weekday-1])
+
