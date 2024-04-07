@@ -2,8 +2,8 @@ import csv
 from datetime import datetime
 
 date = datetime.today().day
-weekday = 4 #datetime.today().weekday()
-weeknum = 0
+weekday = 4 #datetime.today().weekday() #날짜
+weeknum = 0 #주차
 
 f = open("April.csv", "r")
 reader = csv.reader(f)
