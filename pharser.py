@@ -12,3 +12,4 @@ print(data[6])
 del data[:16]
 del data[20:]
 print(data)
+print(data)
