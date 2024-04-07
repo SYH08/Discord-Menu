@@ -1,3 +1,5 @@
+import os
+
 import discord
 from discord.ext import commands
 import functions
@@ -14,6 +16,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
+    await (bot.change_presence(activity=discord.CustomActivity(name="Testing, Attention Please")))
 
 @bot.command()
 async def ping(ctx):
