@@ -27,7 +27,7 @@ print(date) #date.test
 if weekday > 4:
     print("오늘은 주말입니다.") #is Weekend?
 else:
-    print(data[sliceNum[weeknum]][weekday-1])
+    print(data[sliceNum[weeknum]][weekday])
 
 # 슬라이스 번호 없에고 리스트안에 리스트 첫 값이 ""면 삭제코드 넣기
 
