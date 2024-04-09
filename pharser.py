@@ -29,3 +29,6 @@ if weekday > 4:
 else:
     print(data[sliceNum[weeknum]][weekday-1])
 
+# 슬라이스 번호 없에고 리스트안에 리스트 첫 값이 ""면 삭제코드 넣기
+
+
