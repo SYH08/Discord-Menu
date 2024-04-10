@@ -16,7 +16,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
-    await (bot.change_presence(activity=discord.CustomActivity(name="Testing, Attention Please")))
+    await (bot.change_presence(activity=discord.CustomActivity(name="🥵")))
 
 @bot.command()
 async def ping(ctx):
